@@ -15,6 +15,7 @@ import com.lagradost.cloudstream3.plugins.PluginManager.unloadPlugin
 import com.lagradost.cloudstream3.ui.settings.extensions.REPOSITORIES_KEY
 import com.lagradost.cloudstream3.ui.settings.extensions.RepositoryData
 import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
+import com.lagradost.cloudstream3.R
 import androidx.preference.PreferenceManager
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
@@ -81,7 +82,6 @@ object RepositoryManager {
             val settingsManager = PreferenceManager.getDefaultSharedPreferences(ctx)
             if (!settingsManager.getBoolean(ctx.getString(R.string.jsdelivr_proxy_key), false)) return@convertRawGitUrl url
         } ?: return url
-        
         val match = GH_REGEX.find(url) ?: return url
         val (user, repo, rest) = match.destructured
         return "https://cdn.jsdelivr.net/gh/$user/$repo@$rest"
