@@ -724,13 +724,19 @@ class MainActivity : AppCompatActivity(), ColorPickerDialogListener {
         if (!settingsManager.contains("jsdelivr_proxy_key") && isNetworkAvailable()) {
             main {
                 if (checkGithubConnectivity()) {
-                    this.setKey("jsdelivr_proxy_key", false)
+                    settingsManager.edit()
+                        .putBoolean(getString(R.string.jsdelivr_proxy_key), false)
+                        .apply()
                 } else {
-                    this.setKey("jsdelivr_proxy_key", true)
+                    settingsManager.edit()
+                        .putBoolean(getString(R.string.jsdelivr_proxy_key), true)
+                        .apply()
                     val parentView: View = findViewById(android.R.id.content)
                     Snackbar.make(parentView, R.string.jsdelivr_enabled, Snackbar.LENGTH_LONG).let { snackbar ->
                         snackbar.setAction(R.string.revert) { v ->
-                            setKey("jsdelivr_proxy_key", false)
+                            settingsManager.edit()
+                                .putBoolean(getString(R.string.jsdelivr_proxy_key), false)
+                                .apply()
                         }
                         snackbar.setBackgroundTint(colorFromAttribute(R.attr.primaryGrayBackground))
                         snackbar.setTextColor(colorFromAttribute(R.attr.textColor))

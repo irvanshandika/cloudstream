@@ -4,6 +4,7 @@ import android.content.Context
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.lagradost.cloudstream3.AcraApplication.Companion.getKey
 import com.lagradost.cloudstream3.AcraApplication.Companion.setKey
+import com.lagradost.cloudstream3.AcraApplication.Companion.context
 import com.lagradost.cloudstream3.amap
 import com.lagradost.cloudstream3.app
 import com.lagradost.cloudstream3.mvvm.logError
@@ -14,6 +15,7 @@ import com.lagradost.cloudstream3.plugins.PluginManager.unloadPlugin
 import com.lagradost.cloudstream3.ui.settings.extensions.REPOSITORIES_KEY
 import com.lagradost.cloudstream3.ui.settings.extensions.RepositoryData
 import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
+import androidx.preference.PreferenceManager
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import java.io.BufferedInputStream
@@ -75,7 +77,11 @@ object RepositoryManager {
 
     /* Convert raw.githubusercontent.com urls to cdn.jsdelivr.net if enabled in settings */
     fun convertRawGitUrl(url: String): String {
-        if (!(getKey<Boolean>("jsdelivr_proxy_key") ?: false)) return url
+        context?.let { ctx ->
+            val settingsManager = PreferenceManager.getDefaultSharedPreferences(ctx)
+            if (!settingsManager.getBoolean(ctx.getString(R.string.jsdelivr_proxy_key), false)) return@convertRawGitUrl url
+        } ?: return url
+        
         val match = GH_REGEX.find(url) ?: return url
         val (user, repo, rest) = match.destructured
         return "https://cdn.jsdelivr.net/gh/$user/$repo@$rest"
