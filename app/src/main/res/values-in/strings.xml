@@ -35,7 +35,7 @@
     <string name="skip_loading">Skip Loading</string>
     <string name="loading">Loading…</string>
     <string name="type_watching">Sedang Menonton</string>
-    <string name="type_on_hold">Tertahan</string>
+    <string name="type_on_hold">Tertunda</string>
     <string name="type_completed">Selesai</string>
     <string name="type_dropped">Dihentikan</string>
     <string name="type_plan_to_watch">Rencana untuk Menonton</string>
@@ -529,4 +529,16 @@
     <string name="empty_library_logged_in_message">Yahh daftar ini kosong, coba ganti ke yang lain</string>
     <string name="safe_mode_file">Mode aman file ditemukan!
 \nTidak memuat ekstensi pada startup sampai berkas dihapus.</string>
+    <string name="android_tv_interface_off_seek_settings">Sembunyikan Pemutaran - Geser</string>
+    <string name="android_tv_interface_on_seek_settings">Pemutar terlihat - Geser</string>
+    <string name="android_tv_interface_on_seek_settings_summary">Geser untuk menghilangkan</string>
+    <string name="android_tv_interface_off_seek_settings_summary">Geser untuk menghilangkan</string>
+    <string name="pref_category_android_tv">Android TV</string>
+    <string name="test_log">Log</string>
+    <string name="test_passed">Berhasil</string>
+    <string name="category_provider_test">Tes provider</string>
+    <string name="stop">Berhenti</string>
+    <string name="start">Mulai</string>
+    <string name="restart">Mengulang</string>
+    <string name="test_failed">Gagal</string>
 </resources>

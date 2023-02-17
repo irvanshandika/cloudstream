@@ -506,4 +506,16 @@
     <string name="empty_library_logged_in_message">Diese Liste scheint leer zu sein. Versuche, zu einer anderen Liste zu wechseln.</string>
     <string name="safe_mode_file">Datei für abgesicherten Modus gefunden!
 \nBeim Start werden keine Erweiterungen geladen, bis die Datei entfernt wird.</string>
+    <string name="android_tv_interface_off_seek_settings">Player ausgeblendet - Betrag zum vor- und zurückspulen</string>
+    <string name="android_tv_interface_on_seek_settings_summary">Der Betrag, welcher verwendet wird, wenn der Player eingeblendet ist</string>
+    <string name="android_tv_interface_off_seek_settings_summary">Der Betrag, welcher verwendet wird, wenn der Player ausgeblendet ist</string>
+    <string name="pref_category_android_tv">Android-TV</string>
+    <string name="android_tv_interface_on_seek_settings">Player eingeblendet - Betrag zum vor- und zurückspulen</string>
+    <string name="test_failed">Fehlgeschlagen</string>
+    <string name="test_passed">Erfolgreich</string>
+    <string name="category_provider_test">Anbieter-Test</string>
+    <string name="stop">Stopp</string>
+    <string name="test_log">Log</string>
+    <string name="start">Start</string>
+    <string name="restart">Neustarten</string>
 </resources>

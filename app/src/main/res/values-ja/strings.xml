@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="next_episode_time_min_format" formatted="true">%d分</string>
+    <string name="title_downloads">ダウンロード</string>
+    <string name="title_search">検索</string>
+    <string name="title_settings">設定</string>
+    <string name="result_share">シェア</string>
+    <string name="movies">映画</string>
+    <string name="title_home">ホーム</string>
+    <string name="library">ライブラリ</string>
+    <string name="home_play">再生</string>
+    <string name="next_episode_time_day_format" formatted="true">%d日 %d時間%d分</string>
+    <string name="next_episode_time_hour_format" formatted="true">%d時間%d分</string>
+    <string name="search_hint">検索…</string>
+    <string name="download">ダウンロード</string>
+    <string name="home_info">情報</string>
+    <string name="season">シーズン</string>
+    <string name="trailer">予告編</string>
+    <string name="tv_series_singular">シリーズ</string>
+    <string name="episodes">エピソード</string>
+    <string name="player_speed_text_format" formatted="true">再生速度 (%.2fx)</string>
+    <string name="next_episode">次のエピソード</string>
+    <string name="sort_apply">適用</string>
+    <string name="category_account">ア﻿カ﻿ウ﻿ン﻿ト</string>
+    <string name="cartoons">カートゥーン</string>
+    <string name="tv_series">TVシリーズ</string>
+    <string name="torrent">トレント</string>
+    <string name="documentaries">ドキュメンタリー</string>
+    <string name="ova">OVA</string>
+    <string name="asian_drama">アジアドラマ</string>
+    <string name="livestreams">ライブ配信</string>
+    <string name="movies_singular">映画</string>
+    <string name="others">その他</string>
+    <string name="cartoons_singular">カートゥーン</string>
+    <string name="torrent_singular">トレント</string>
+    <string name="documentaries_singular">ドキュメンタリー</string>
+    <string name="asian_drama_singular">アジアドラマ</string>
+    <string name="live_singular">ライブ配信</string>
+    <string name="nsfw_singular">NSFW</string>
+    <string name="sort_cancel">キャンセル</string>
+    <string name="anime">アニメ</string>
+    <string name="video_lock">ロック</string>
+    <string name="video_source">ソース</string>
+    <string name="nsfw">NSFW</string>
+    <string name="clear_history">履歴を削除</string>
+    <string name="continue_watching">視聴中コンテンツ</string>
+    <string name="category_general">全般</string>
+    <string name="other_singular">動画</string>
+    <string name="category_player">プレーヤー</string>
+    <string name="type_plan_to_watch">懐う</string>
+    <string name="play_trailer_button">予告編を再生</string>
+    <string name="episode_short">エピソード</string>
+    <string name="type_watching">視聴</string>
+    <string name="result_tags">ジャンル</string>
+    <string name="play_movie_button">映画を再生</string>
+    <string name="pick_subtitle">字幕</string>
+    <string name="app_name">CloudStream</string>
+    <string name="play_with_app_name">CloudStreamで再生</string>
+    <string name="browser">ブラウザ</string>
+    <string name="type_completed">完成</string>
+    <string name="type_dropped">放置</string>
+    <string name="type_on_hold">保留</string>
+    <string name="loading">ローディング…</string>
+    <string name="result_open_in_browser">ブラウザで開く</string>
+    <string name="season_short">シーズン</string>
+    <string name="resume_time_left" formatted="true">残り
+\n%d分</string>
+    <string name="play_episode">再生エピソード</string>
+    <string name="downloaded">ダウンロード済</string>
+</resources>

@@ -554,4 +554,9 @@
     <string name="empty_library_no_accounts_message">看来您的库是空的 :(
 \n登录库账户或添加节目到您的本地库</string>
     <string name="empty_library_logged_in_message">看来此列表是空的，请尝试切换到另一个</string>
+    <string name="android_tv_interface_on_seek_settings">播放器显示 - 快进快退秒数</string>
+    <string name="android_tv_interface_on_seek_settings_summary">播放器可见时使用的快进快退秒数</string>
+    <string name="android_tv_interface_off_seek_settings">播放器隐藏 - 快进快退秒数</string>
+    <string name="android_tv_interface_off_seek_settings_summary">播放器隐藏时使用的快进快退秒数</string>
+    <string name="pref_category_android_tv">Android TV</string>
 </resources>

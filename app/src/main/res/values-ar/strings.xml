@@ -543,4 +543,11 @@
     <string name="pref_category_android_tv">تلفزيون أندرويد</string>
     <string name="android_tv_interface_on_seek_settings_summary">مدة التقديم عنما يكون المشغل مرئيا</string>
     <string name="android_tv_interface_on_seek_settings">مدة التقديم- المشغل المرئي</string>
+    <string name="test_failed">فشل</string>
+    <string name="test_passed">نجح</string>
+    <string name="category_provider_test">إختبار المزود</string>
+    <string name="restart">إعادة التشغيل</string>
+    <string name="test_log">سجل</string>
+    <string name="start">بَدأ</string>
+    <string name="stop">إيقاف</string>
 </resources>

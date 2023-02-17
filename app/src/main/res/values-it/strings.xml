@@ -528,4 +528,9 @@
     <string name="empty_library_logged_in_message">Sembra che questa lista sia vuota, prova a passare a un\'altra</string>
     <string name="safe_mode_file">File \"safe mode\" trovato!
 \nAll\'avvio non sarà caricata alcuna estensione finchè il file non verrà rimosso.</string>
+    <string name="android_tv_interface_off_seek_settings_summary">Quantità di ricerca usata quando il player è nascosto</string>
+    <string name="pref_category_android_tv">TV Android</string>
+    <string name="android_tv_interface_on_seek_settings_summary">Quantità di ricerca usata quando il player è visibile</string>
+    <string name="android_tv_interface_on_seek_settings">Player visibile - Quantità di ricerca</string>
+    <string name="android_tv_interface_off_seek_settings">Player nascosto - Quantità di ricerca</string>
 </resources>
